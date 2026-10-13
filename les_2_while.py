@@ -29,11 +29,26 @@
 #print(total) 
 
 
-total = 0  #кол-во введенных знач
-amount = 0 #сумма введ знач
+#total = 0  #кол-во введенных знач
+#amount = 0 #сумма введ знач
+#n = int(input())
+#while n != 0:
+#    total += 1  
+#    amount = amount + n
+#    n = int(input())
+#print(amount / total)
+
+
+#n = int(input())
+#while n != 123:
+#    n = int(input())
+#print('Python', n)
+
+
+total = 0
 n = int(input())
 while n != 0:
-    total += 1  
-    amount = amount + n
+    total = total + n
     n = int(input())
-print(amount / total) 
+    
+print(total)    
